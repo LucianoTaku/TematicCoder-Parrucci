@@ -1,0 +1,45 @@
+.emoji-carousel {
+  display: inline-block;
+  overflow: hidden;
+  width: 80px;
+  height: 40px;
+}
+.emoji-carousel span {
+  display: inline-block;
+  animation: scrollEmojis 8s linear infinite;
+}
+.emoji-carousel span:nth-child(1) {
+  animation-delay: 0s;
+}
+.emoji-carousel span:nth-child(2) {
+  animation-delay: -2s;
+}
+.emoji-carousel span:nth-child(3) {
+  animation-delay: -4s;
+}
+.emoji-carousel span:nth-child(4) {
+  animation-delay: -6s;
+}
+
+@keyframes scrollEmojis {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
+}
+.nav-link-custom {
+  color: #ffffff !important;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.nav-link-custom:hover {
+  color: #ff69b4 !important;
+  background: rgba(255, 105, 180, 0.1);
+  border-color: #ff69b4;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+}
+
+/*# sourceMappingURL=style.css.map */

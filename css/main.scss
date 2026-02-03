@@ -2,28 +2,6 @@ $rosa-glam: #ff69b4;
 $crema-dulce: #fff5ee;
 $verde-menta: #98d8c8;
 
-.emoji-carousel {
-    display: inline-block;
-    overflow: hidden;
-    width: 80px;
-    height: 40px;
-    
-    span {
-        display: inline-block;
-        animation: scrollEmojis 8s linear infinite;
-        
-        &:nth-child(1) { animation-delay: 0s; }
-        &:nth-child(2) { animation-delay: -2s; }
-        &:nth-child(3) { animation-delay: -4s; }
-        &:nth-child(4) { animation-delay: -6s; }
-    }
-}
-
-@keyframes scrollEmojis {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100px); }
-}
-
 .nav-link-custom {
     color: #ffffff !important;
     border: 2px solid transparent;
@@ -45,4 +23,11 @@ $verde-menta: #98d8c8;
     filter: invert(23%) sepia(99%) saturate(2851%) hue-rotate(280deg) brightness(92%) contrast(94%);
     background-color: violet;
     box-shadow: 0 5px 10px violet;
+}
+
+//No voy a romantizar la IA pero que bien me vino esto
+.card-body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }

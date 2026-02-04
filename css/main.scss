@@ -101,3 +101,95 @@ $rojo-fuerte: red;
         height: 250px;
     }
 }
+
+//Contactos Html con scss y css:
+
+#contactos {
+    padding: 4rem 0;
+    background: #f8f9fa;
+    
+    .contact-contenedor {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+.titulo-contacto{
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #dc3545;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+        color: #6c757d
+    }
+
+}
+
+.contacto-grilla{
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.contact-item{
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    border-top: 4px solid #dc3545;
+
+    h3{
+        font-size: 1.5rem;
+        color: #2c3e50;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 1.1rem;
+        color: #495057;
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+    }
+
+    strong{
+        color: #dc3545;
+    }
+}
+
+.contacto-footer{
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #dee2e6;
+
+    p{
+        font-size: 1.1rem;
+        color: #6c757d;
+        margin-bottom: 0.25rem;
+    }
+
+}}
+
+@media (max-width: 768px){
+    #contactos{
+        padding: 3rem 0;
+
+        .titulo-contacto h2{
+            font-size: 2rem;
+        }
+        .contact-item{
+            padding: 1.5rem;
+        }
+    }
+}

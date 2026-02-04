@@ -4,9 +4,9 @@
   transition: all 0.3s ease;
 }
 .nav-link-custom:hover {
-  color: #ff69b4 !important;
-  background: rgba(255, 105, 180, 0.1);
-  border-color: #ff69b4;
+  color: red !important;
+  background: rgba(255, 0, 0, 0.1);
+  border-color: red;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
 }
@@ -15,9 +15,8 @@
 .carousel-control-next-icon {
   width: 50px;
   height: 50px;
-  filter: invert(23%) sepia(99%) saturate(2851%) hue-rotate(280deg) brightness(92%) contrast(94%);
-  background-color: violet;
-  box-shadow: 0 5px 10px violet;
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 5px 10px rgb(255, 0, 0);
 }
 
 .card-body {

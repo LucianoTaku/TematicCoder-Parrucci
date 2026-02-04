@@ -1,6 +1,5 @@
 $rosa-glam: #ff69b4;
-$crema-dulce: #fff5ee;
-$verde-menta: #98d8c8;
+$rojo-fuerte: red;
 
 .nav-link-custom {
     color: #ffffff !important;
@@ -8,9 +7,9 @@ $verde-menta: #98d8c8;
     transition: all 0.3s ease;
     
     &:hover {
-        color: $rosa-glam !important;
-        background: rgba($rosa-glam, 0.1);
-        border-color: $rosa-glam;
+        color: $rojo-fuerte !important;
+        background: rgba($rojo-fuerte, 0.1);
+        border-color: $rojo-fuerte;
         transform: translateY(-2px);
         box-shadow: 0 5px 15px rgba(255,105,180,0.3);
     }
@@ -20,9 +19,8 @@ $verde-menta: #98d8c8;
 .carousel-control-next-icon {
     width: 50px;
     height: 50px;
-    filter: invert(23%) sepia(99%) saturate(2851%) hue-rotate(280deg) brightness(92%) contrast(94%);
-    background-color: violet;
-    box-shadow: 0 5px 10px violet;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 5px 10px rgb(255, 0, 0);
 }
 
 //No voy a romantizar la IA pero que bien me vino esto

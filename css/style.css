@@ -31,6 +31,28 @@
     border-radius: 12px;
     margin: 0.5rem 0;
   }
+  .card-body {
+    padding-bottom: 5rem !important;
+    position: relative !important;
+  }
+  .card .btn {
+    position: absolute !important;
+    bottom: 1rem !important;
+    right: 1rem !important;
+    left: auto !important;
+    margin: 0 !important;
+    z-index: 10 !important;
+  }
+  .card, .card-img-top, .card img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }
+  [class*=col-] {
+    width: 100% !important;
+    padding: 0.5rem !important;
+  }
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {

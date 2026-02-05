@@ -9,15 +9,36 @@ $shadow-hover: 0 6px 20px rgba(37,211,102,0.4);
     color: #ffffff !important;
     border: 2px solid transparent;
     transition: all 0.3s ease;
+    padding: 0.75rem 1.25rem !important;
     
     &:hover {
         color: $rojo-fuerte !important;
         background: rgba($rojo-fuerte, 0.1);
         border-color: $rojo-fuerte;
-        transform: translateY(-2px);
-        box-shadow: 0 5px 15px rgba(255,105,180,0.3);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(255,105,180,0.3);
     }
 }
+
+@media (max-width: 991.98px) {
+    .nav-link-custom { 
+        padding: 0.75rem 1rem !important;
+        margin: 0 !important;
+        border-radius: 10px !important;
+        
+        &:hover { 
+            transform: none !important;
+            box-shadow: 0 2px 8px rgba($rojo-fuerte, 0.15) !important;
+            background: rgba($rojo-fuerte, 0.15) !important;
+        }
+    }
+
+    .navbar-collapse{
+        background: rgba(33,37,41,0.98) !important;
+        padding: 1rem;
+        border-radius: 12px;
+        margin: 0.5rem 0;
+    }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -48,7 +69,7 @@ $shadow-hover: 0 6px 20px rgba(37,211,102,0.4);
     text-align: center;
     font-size: 30px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    z-index: 1000;
+    z-index: 1050;
     transition: all 0.3s ease;
     text-decoration: none;
     
@@ -66,7 +87,7 @@ $shadow-hover: 0 6px 20px rgba(37,211,102,0.4);
 //Carousel Nosotros
 #carouselNosotros {
     width: 900px;      
-    height: 500px;     
+    aspect-ratio: 16/9;     
     margin: 0 auto;    
 }
 
@@ -201,7 +222,7 @@ $shadow-hover: 0 6px 20px rgba(37,211,102,0.4);
 .easter-egg{
     opacity: 0.5 !important;
     transition: all 0.03s ease;
-    z-index: 20;
+    z-index: 1060;
 }
 
 .easter-egg:hover{

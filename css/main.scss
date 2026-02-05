@@ -20,6 +20,8 @@ $shadow-hover: 0 6px 20px rgba(37,211,102,0.4);
     }
 }
 
+//Arreglo de navlinks para evitar solapa en mobile
+
 @media (max-width: 480px) {
     .nav-link-custom { 
         padding: 0.75rem 1rem !important;

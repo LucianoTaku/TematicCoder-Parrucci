@@ -25,32 +25,6 @@
     box-shadow: 0 2px 8px rgba(255, 0, 0, 0.15) !important;
     background: rgba(255, 0, 0, 0.15) !important;
   }
-  .nav-link-custom .card, .nav-link-custom .card-body, .nav-link-custom .card-img-top, .nav-link-custom .card-img, .nav-link-custom .card-image, .nav-link-custom img.card-img {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    overflow: hidden !important;
-  }
-  .nav-link-custom .card img, .nav-link-custom .card picture img, .nav-link-custom .card figure img {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 100% !important;
-    object-fit: cover !important;
-    object-position: center !important;
-    display: block !important;
-  }
-  .nav-link-custom .row {
-    margin: 0 !important;
-  }
-  .nav-link-custom [class*=col-] {
-    padding: 0.5rem !important;
-    width: 100% !important;
-    margin-bottom: 1rem !important;
-  }
-  .nav-link-custom .col-md-4, .nav-link-custom .col-lg-3, .nav-link-custom .col-sm-6 {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-  }
   .navbar-collapse {
     background: rgba(33, 37, 41, 0.98) !important;
     padding: 1rem;

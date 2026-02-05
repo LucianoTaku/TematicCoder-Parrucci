@@ -165,5 +165,17 @@
     padding: 1.5rem;
   }
 }
+.easter-egg {
+  opacity: 0.5 !important;
+  transition: all 0.03s ease;
+  z-index: 20;
+}
+
+.easter-egg:hover {
+  opacity: 1 !important;
+  transform: scale(1.6);
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+}
 
 /*# sourceMappingURL=style.css.map */
